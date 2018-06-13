@@ -1,24 +1,56 @@
 <html>
   <head>
-	
-  </head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel ="stylesheet" href ="tic.css" type="text/css">
+	  </head>
   <body>
   	<h1>TIC TAC TOE</h1>
+  	<div id="disp" class="container">
   	
-  	<div>
-  		<button onClick="click('1')">O</button>
-  		<button onClick="click('2')">X</button>
-  		<button onClick="click('3')">X</button>
+  	<div class ="row">
+  		<div class ="col-sm-4">
+  			<button onClick="click('1')">O</button>
+  		</div>
+  		<div class ="col-sm-4">
+  			<button onClick="click('2')">X</button>
+  		</div>
+
+  		<div class ="col-sm-4">
+  			<button onClick="click('3')">X</button>
+  		</div>
+
+  		
+  		
+  		
   	</div>
-  	<div>
-  		<button onClick="click('4')">X</button>
-  		<button onClick="click('5')">O</button>
-  		<button onClick="click('6')">O</button>
+  	<div class="row">
+  		<div class ="col-sm-4">
+  			<button onClick="click('4')">X</button>
+  		</div>
+  		<div class ="col-sm-4">
+  			<button onClick="click('5')">O</button>
+  		</div>
+  		<div class ="col-sm-4">
+  			<button onClick="click('6')">O</button>
+  		</div>
+
+  		
+  		
+  		
   	</div>
-  	<div>
-  		<button onClick="click('7')">X</button>
-  		<button onClick="click('8')">O</button>
-  		<button onClick="click('9')">O</button>
+  	<div class="row">
+  		<div class ="col-sm-4">
+  			<button onClick="click('7')">X</button>
+  		</div>
+  		<div class ="col-sm-4">
+  			<button onClick="click('8')">O</button>
+  		</div>
+  		<div class ="col-sm-4">
+  			<button onClick="click('9')">O</button>
+  		</div>
+	
+  	</div>
   	</div>
   	<div id="display"></div>
    <script type="text/javascript" src="tic.js"></script>
